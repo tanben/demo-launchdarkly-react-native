@@ -1,0 +1,6 @@
+module launchdarkly_react_native_client_sdk {
+  umbrella header "launchdarkly-react-native-client-sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

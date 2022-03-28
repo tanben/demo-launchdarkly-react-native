@@ -1,0 +1,31 @@
+{
+  "name": "launchdarkly-react-native-client-sdk",
+  "version": "6.1.2",
+  "summary": "LaunchDarkly Client-side SDK for React Native",
+  "homepage": "https://docs.launchdarkly.com/sdk/client-side/react-native",
+  "license": {
+    "type": "Apache-2.0",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "author": "support@launchdarkly.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/launchdarkly/react-native-client-sdk.git",
+    "tag": "6.1.2"
+  },
+  "source_files": "ios/**/*.{h,m,swift}",
+  "swift_versions": "5.0",
+  "dependencies": {
+    "React-Core": [
+
+    ],
+    "LaunchDarkly": [
+      "5.4.5"
+    ]
+  },
+  "swift_version": "5.0"
+}
